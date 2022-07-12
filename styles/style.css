@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: blue;
+}
+
+main nav {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+}
+
+#about {
+    background-color: white;
+    display: inline-block;
+    color: blue;
+    transform: skew(-15deg);
+    padding: 100px;
+    width: 30%;
+}
+
+#about h2 {
+    transform: skew(15deg);
+}
+
+#about p {
+    transform: skew(15deg);
+}
+
+#picture-of-me {
+    background-color: lightblue;
+    display: inline-block;
+}
