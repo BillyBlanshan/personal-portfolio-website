@@ -76,12 +76,33 @@ ul {
     margin: 2rem;
 }
 
-footer {
+#footer {
     display: flex;
     justify-content: space-around;
     font-size: 2rem;
     width: 70%;
     margin: auto;
+}
+
+#html-text,
+#css-text,
+#js-text {
+    display: none;
+    font-size: 1.5rem;
+    color: #f4f3ee;
+    text-align: center;
+    background-color: #463f3a;
+}
+
+#htmlClicker:hover,
+#cssClicker:hover,
+#jsClicker:hover {
+    cursor: pointer;
+}
+
+i {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 @media only screen and (max-width: 1040px) {
