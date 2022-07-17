@@ -76,6 +76,14 @@ ul {
     margin: 2rem;
 }
 
+footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    width: 70%;
+    margin: auto;
+}
+
 @media only screen and (max-width: 1040px) {
     #welcome img {
         display: block;
@@ -118,6 +126,10 @@ ul {
 
     main {
         margin: 0px;
+    }
+
+    footer {
+        display: none;
     }
 }
 
